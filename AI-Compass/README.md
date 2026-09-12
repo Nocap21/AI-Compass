@@ -1,4 +1,4 @@
-# AI Compass
+git push -u origin main# AI Compass
 
 A modern, fully responsive directory for discovering, searching, comparing, and bookmarking AI tools — built with nothing but **HTML5, CSS3, vanilla JavaScript (ES6), and JSON**. No frameworks, no build step, no dependencies.
 

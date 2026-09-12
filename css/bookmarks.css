@@ -1,7 +1,0 @@
-/* =========================================================
-   BOOKMARKS.CSS — saved tools page
-   ========================================================= */
-
-.bookmarks-head{ padding:44px 0 12px; }
-.bookmarks-toolbar{ display:flex; justify-content:space-between; align-items:center; margin-bottom:24px; flex-wrap:wrap; gap:12px; }
-.clear-all-btn{ color:var(--signal); font-size:13.5px; font-weight:600; }
