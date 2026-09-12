@@ -1,0 +1,65 @@
+/* =========================================================
+   RECOMMEND.CSS — "Find the right AI tool for me" quiz
+   ========================================================= */
+
+.recommend-hero{ padding:48px 0 8px; max-width:640px; }
+
+.recommend-card{
+  background:var(--card-bg); border:1px solid var(--line); border-radius:var(--radius-l);
+  padding:36px; max-width:720px; margin:24px auto 64px;
+}
+
+.recommend-progress{ display:flex; align-items:center; justify-content:center; gap:10px; margin-bottom:32px; }
+.recommend-progress .step{
+  width:30px; height:30px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+  font-family:var(--font-mono); font-size:13px; border:1px solid var(--line); color:var(--ink-soft);
+}
+.recommend-progress .step.active{ border-color:var(--signal); color:var(--signal); }
+.recommend-progress .step.done{ background:var(--signal); border-color:var(--signal); color:#fff; }
+
+.recommend-step{ display:none; text-align:center; }
+.recommend-step.active{ display:block; }
+.recommend-step h2{ margin-bottom:6px; }
+.step-sub{ margin-bottom:24px; }
+
+.option-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(170px,1fr)); gap:12px; text-align:left; }
+.option-tile{
+  background:var(--paper-dim); border:1px solid var(--line); border-radius:var(--radius-m);
+  padding:16px; font-size:14.5px; font-weight:600; color:var(--ink); cursor:pointer;
+  text-align:left; transition:border-color .15s ease, transform .15s ease, background .15s ease;
+  display:flex; flex-direction:column; gap:4px;
+}
+.option-tile span{ font-size:12px; font-weight:400; color:var(--ink-soft); }
+.option-tile:hover{ border-color:var(--signal); transform:translateY(-2px); }
+.option-tile.selected{ border-color:var(--signal); background:color-mix(in srgb, var(--signal) 12%, var(--paper-dim)); }
+
+.recommend-nav{ display:flex; justify-content:space-between; margin-top:32px; }
+
+/* ---- Results ---- */
+.recommend-results{ max-width:760px; margin:0 auto 64px; }
+.recommend-results .section-heading{ text-align:center; margin-bottom:28px; }
+
+.match-list{ display:flex; flex-direction:column; gap:14px; margin-bottom:28px; }
+.match-card{
+  background:var(--card-bg); border:1px solid var(--line); border-radius:var(--radius-m);
+  padding:18px; display:flex; align-items:center; gap:16px;
+}
+.match-rank{ font-family:var(--font-mono); font-size:13px; color:var(--ink-soft); width:24px; flex-shrink:0; }
+.match-card .tool-logo{ width:48px; height:48px; font-size:15px; flex-shrink:0; }
+.match-info{ flex:1; min-width:0; }
+.match-info h3{ margin:0; font-size:16px; }
+.match-info .tool-dev{ margin-top:2px; }
+.match-info .tool-desc{ margin:6px 0; font-size:13.5px; }
+.match-info .tool-meta-row{ font-size:12.5px; }
+
+.match-score{ text-align:center; flex-shrink:0; width:64px; }
+.match-score-ring{
+  width:56px; height:56px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+  margin:0 auto; font-family:var(--font-mono); font-weight:700; font-size:13px; color:#fff; background:var(--signal);
+}
+.match-score span{ display:block; font-size:11px; color:var(--ink-soft); margin-top:4px; }
+
+@media (max-width:640px){
+  .recommend-card{ padding:22px; }
+  .match-card{ flex-wrap:wrap; }
+}

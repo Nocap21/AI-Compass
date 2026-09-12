@@ -1,0 +1,22 @@
+/* =========================================================
+   CONTACT.CSS — Contact page form
+   ========================================================= */
+
+.contact-wrap{ display:grid; grid-template-columns:1fr 1fr; gap:48px; padding:48px 0 64px; align-items:start; }
+.contact-form{ background:var(--card-bg); border:1px solid var(--line); border-radius:var(--radius-l); padding:32px; }
+.form-field{ margin-bottom:18px; }
+.form-field label{ display:block; font-size:13px; font-weight:600; margin-bottom:7px; }
+.form-field input, .form-field textarea{
+  width:100%; padding:12px 14px; border-radius:var(--radius-s); border:1px solid var(--line);
+  background:var(--paper-dim); color:var(--ink); font-size:14px; outline:none; resize:vertical;
+}
+.form-field input:focus, .form-field textarea:focus{ border-color:var(--signal); background:var(--card-bg); }
+.field-error{ color:var(--signal); font-size:12px; margin-top:5px; display:none; }
+.field-error.show{ display:block; }
+.form-field.invalid input, .form-field.invalid textarea{ border-color:var(--signal); }
+.contact-info-item{ display:flex; gap:14px; margin-bottom:24px; }
+.contact-info-item .ic{
+  width:42px; height:42px; border-radius:12px; background:var(--signal-dim); color:var(--signal);
+  display:flex; align-items:center; justify-content:center; flex-shrink:0;
+}
+@media (max-width:860px){ .contact-wrap{ grid-template-columns:1fr; } }

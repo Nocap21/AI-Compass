@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<title>AI Compass — Find your bearing in the world of AI tools</title>
+<meta name="description" content="Discover, compare, and bookmark the best AI tools in one place.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div class="page-loader" id="page-loader">
+  <div class="needle-spinner"></div>
+  <span>Finding true north…</span>
+</div>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header">
+  <div class="navbar">
+    <a href="index.html" class="brand"><span class="brand-mark"></span> AI Compass</a>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tools.html">All Tools</a>
+      <a href="recommend.html">Find My Tool</a>
+      <a href="compare.html">Compare</a>
+      <a href="bookmarks.html">Bookmarks</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="nav-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" placeholder="Search tools…" data-search-input>
+        <div class="suggestions-panel" data-search-panel></div>
+      </div>
+      <button class="btn btn-icon" data-action="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      <button class="btn btn-icon nav-toggle" data-nav-toggle aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MOBILE DRAWER ============ -->
+<div class="mobile-drawer" id="mobile-drawer">
+  <div class="mobile-drawer-panel">
+    <button class="btn btn-icon drawer-close-btn" data-drawer-close>✕</button>
+    <a href="index.html">Home</a>
+    <a href="tools.html">All Tools</a>
+      <a href="recommend.html">Find My Tool</a>
+    <a href="compare.html">Compare</a>
+    <a href="bookmarks.html">Bookmarks</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="bearing">EVERY AI TOOL, ONE BEARING</p>
+        <h1>Find your way through the AI toolscape.</h1>
+        <p class="lede">AI Compass indexes, rates, and compares the tools actually worth your time — from chatbots to code editors to voice cloning — so you stop guessing and start building.</p>
+
+        <div class="hero-search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" placeholder="Try “image generation” or “Claude”…" data-search-input>
+          <button class="btn btn-primary" data-hero-search-btn>Search</button>
+          <div class="suggestions-panel" data-search-panel></div>
+        </div>
+        <div class="popular-tags">
+          <span>Popular:</span>
+          <div id="popular-searches" style="display:contents;"></div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat"><b>55+</b><span>Tools Indexed</span></div>
+          <div class="hero-stat"><b>14</b><span>Categories</span></div>
+          <div class="hero-stat"><b>360°</b><span>Coverage</span></div>
+        </div>
+      </div>
+
+      <div class="compass-rose">
+        <svg viewBox="0 0 400 400" width="100%" height="100%">
+          <circle cx="200" cy="200" r="180" fill="none" stroke="var(--line)" stroke-width="2"/>
+          <circle cx="200" cy="200" r="140" fill="none" stroke="var(--line)" stroke-width="1"/>
+          <g stroke="var(--line)" stroke-width="1">
+            <line x1="200" y1="20" x2="200" y2="380"/>
+            <line x1="20" y1="200" x2="380" y2="200"/>
+          </g>
+          <polygon points="200,60 215,200 200,340 185,200" fill="var(--signal)" opacity="0.9"/>
+          <polygon points="200,60 215,200 185,200" fill="var(--signal)"/>
+          <circle cx="200" cy="200" r="12" fill="var(--card-bg)" stroke="var(--ink)" stroke-width="2"/>
+          <text x="200" y="45" text-anchor="middle" font-family="JetBrains Mono" font-size="14" fill="var(--ink-soft)">N</text>
+          <text x="200" y="365" text-anchor="middle" font-family="JetBrains Mono" font-size="14" fill="var(--ink-soft)">S</text>
+          <text x="30" y="205" text-anchor="middle" font-family="JetBrains Mono" font-size="14" fill="var(--ink-soft)">W</text>
+          <text x="370" y="205" text-anchor="middle" font-family="JetBrains Mono" font-size="14" fill="var(--ink-soft)">E</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRENDING ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="bearing">RIGHT NOW</p>
+          <h2>Trending AI Tools</h2>
+        </div>
+        <a class="view-all" href="tools.html">See all tools →</a>
+      </div>
+      <div class="tools-grid" id="trending-tools"></div>
+    </div>
+  </section>
+
+  <!-- ============ CATEGORIES ============ -->
+  <section class="section" style="background:var(--paper-dim);">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="bearing">CHOOSE A HEADING</p>
+          <h2>Browse by Category</h2>
+        </div>
+      </div>
+      <div class="category-grid" id="category-grid"></div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="bearing">TOP RATED</p>
+          <h2>Featured AI Tools</h2>
+        </div>
+        <a class="view-all" href="tools.html?sort=rating-high">See all tools →</a>
+      </div>
+      <div class="tools-grid" id="featured-tools"></div>
+    </div>
+  </section>
+
+  <!-- ============ RECENTLY VIEWED (hidden until user has history) ============ -->
+  <section class="section" id="recently-viewed-section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="bearing">YOUR TRAIL</p>
+          <h2>Recently Viewed</h2>
+        </div>
+      </div>
+      <div class="tools-grid" id="recently-viewed-tools"></div>
+    </div>
+  </section>
+
+  <!-- ============ RECENTLY ADDED ============ -->
+  <section class="section" style="background:var(--paper-dim);">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="bearing">JUST SURFACED</p>
+          <h2>Recently Added</h2>
+        </div>
+        <a class="view-all" href="tools.html?sort=recent">See all tools →</a>
+      </div>
+      <div class="tools-grid" id="recent-tools"></div>
+    </div>
+  </section>
+
+  <!-- ============ NEWSLETTER ============ -->
+  <section class="section">
+    <div class="newsletter">
+      <p class="bearing" style="justify-content:center;">STAY ON COURSE</p>
+      <h2>Get new AI tools in your inbox</h2>
+      <p>One email a week. No noise, just the tools worth trying.</p>
+      <form class="newsletter-form" id="newsletter-form">
+        <input type="email" placeholder="you@example.com" required>
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="brand footer-brand"><span class="brand-mark"></span> AI Compass</a>
+        <p>Your bearing in the ever-expanding world of AI tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="tools.html">All Tools</a>
+      <a href="recommend.html">Find My Tool</a>
+        <a href="compare.html">Compare</a>
+        <a href="bookmarks.html">Bookmarks</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <div class="social-row">
+          <a href="#">X</a><a href="#">GitHub</a><a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AI Compass. All rights reserved.</span>
+      <span>Built with HTML, CSS &amp; vanilla JS.</span>
+    </div>
+  </div>
+</footer>
+
+<button id="scroll-top" aria-label="Scroll to top">↑</button>
+<div id="toast-container"></div>
+
+<script src="js/data.js"></script>
+<script src="js/bookmark.js"></script>
+<script src="js/compare.js"></script>
+<script src="js/recentlyViewed.js"></script>
+<script src="js/darkmode.js"></script>
+<script src="js/loader.js"></script>
+<script src="js/search.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

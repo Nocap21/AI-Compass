@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<title>Contact · AI Compass</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/contact.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div class="page-loader" id="page-loader">
+  <div class="needle-spinner"></div>
+  <span>Opening the radio channel…</span>
+</div>
+
+<header class="site-header">
+  <div class="navbar">
+    <a href="index.html" class="brand"><span class="brand-mark"></span> AI Compass</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tools.html">All Tools</a>
+      <a href="recommend.html">Find My Tool</a>
+      <a href="compare.html">Compare</a>
+      <a href="bookmarks.html">Bookmarks</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="nav-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" placeholder="Search tools…" data-search-input>
+        <div class="suggestions-panel" data-search-panel></div>
+      </div>
+      <button class="btn btn-icon" data-action="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      <button class="btn btn-icon nav-toggle" data-nav-toggle aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-drawer" id="mobile-drawer">
+  <div class="mobile-drawer-panel">
+    <button class="btn btn-icon drawer-close-btn" data-drawer-close>✕</button>
+    <a href="index.html">Home</a>
+    <a href="tools.html">All Tools</a>
+      <a href="recommend.html">Find My Tool</a>
+    <a href="compare.html">Compare</a>
+    <a href="bookmarks.html">Bookmarks</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+
+<main>
+  <div class="container" style="padding-top:44px;">
+    <p class="bearing">GET IN TOUCH</p>
+    <h1>Contact Us</h1>
+  </div>
+
+  <div class="container contact-wrap">
+    <div>
+      <p>Questions, tool suggestions, or partnership ideas — send them our way and we'll respond within a couple of business days.</p>
+
+      <div class="contact-info-item">
+        <div class="ic">✉</div>
+        <div><strong>Email</strong><p style="margin:2px 0 0;">hello@aicompass.example</p></div>
+      </div>
+      <div class="contact-info-item">
+        <div class="ic">🕑</div>
+        <div><strong>Response time</strong><p style="margin:2px 0 0;">Within 2 business days</p></div>
+      </div>
+
+      <div class="empty-state hidden" id="contact-success" style="text-align:left; padding:20px 0 0;">
+        <p class="bearing">MESSAGE RECEIVED</p>
+        <h3 style="margin:0 0 6px;">Thanks — we've got your message.</h3>
+        <p>We'll reply at the email address you provided.</p>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contact-form" novalidate>
+      <div class="form-field">
+        <label for="field-name">Name</label>
+        <input type="text" id="field-name" name="name" placeholder="Jane Doe">
+        <div class="field-error">Enter your full name</div>
+      </div>
+      <div class="form-field">
+        <label for="field-email">Email</label>
+        <input type="email" id="field-email" name="email" placeholder="you@example.com">
+        <div class="field-error">Enter a valid email address</div>
+      </div>
+      <div class="form-field">
+        <label for="field-subject">Subject</label>
+        <input type="text" id="field-subject" name="subject" placeholder="What's this about?">
+        <div class="field-error">Subject is too short</div>
+      </div>
+      <div class="form-field">
+        <label for="field-message">Message</label>
+        <textarea id="field-message" name="message" rows="5" placeholder="Tell us more…"></textarea>
+        <div class="field-error">Message should be at least 10 characters</div>
+      </div>
+      <button class="btn btn-primary btn-block" type="submit">Send Message</button>
+    </form>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="brand footer-brand"><span class="brand-mark"></span> AI Compass</a>
+        <p>Your bearing in the ever-expanding world of AI tools.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="tools.html">All Tools</a>
+      <a href="recommend.html">Find My Tool</a>
+        <a href="compare.html">Compare</a>
+        <a href="bookmarks.html">Bookmarks</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <div class="social-row"><a href="#">X</a><a href="#">GitHub</a><a href="#">LinkedIn</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AI Compass. All rights reserved.</span>
+      <span>Built with HTML, CSS &amp; vanilla JS.</span>
+    </div>
+  </div>
+</footer>
+
+<button id="scroll-top" aria-label="Scroll to top">↑</button>
+<div id="toast-container"></div>
+
+<script src="js/data.js"></script>
+<script src="js/bookmark.js"></script>
+<script src="js/compare.js"></script>
+<script src="js/recentlyViewed.js"></script>
+<script src="js/darkmode.js"></script>
+<script src="js/loader.js"></script>
+<script src="js/search.js"></script>
+<script src="js/app.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
