@@ -1,0 +1,2575 @@
+[
+  {
+    "id": 1,
+    "name": "ChatGPT",
+    "developer": "OpenAI",
+    "category": "AI Chatbots",
+    "rating": 4.8,
+    "description": "Conversational AI assistant for any task.",
+    "longDescription": "ChatGPT is a general-purpose conversational assistant built on OpenAI's GPT models. It can write, reason, code, summarize, and hold multi-turn conversations across nearly any domain, with plugins and custom GPTs extending it further.",
+    "website": "https://chat.openai.com",
+    "youtube": "https://www.youtube.com/watch?v=JTxsNm9IdYU",
+    "logoHue": 52,
+    "logoInitials": "CH",
+    "platforms": [
+      "Web",
+      "Desktop",
+      "iOS",
+      "Android"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Everyone",
+    "features": [
+      "Multi-turn conversation",
+      "Code generation",
+      "Custom GPTs",
+      "Voice mode",
+      "Web browsing"
+    ],
+    "pros": [
+      "Extremely versatile",
+      "Huge plugin ecosystem",
+      "Strong reasoning"
+    ],
+    "cons": [
+      "Can hallucinate facts",
+      "Paid tier needed for best models"
+    ],
+    "tags": [
+      "chatbot",
+      "assistant",
+      "llm",
+      "productivity"
+    ],
+    "alternatives": [
+      "Claude",
+      "Gemini",
+      "Perplexity"
+    ],
+    "badges": [
+      "new"
+    ],
+    "dateAdded": "2026-07-02",
+     "logo": "assets/logos/chatgpt-com-logo.png"
+  },
+  {
+    "id": 2,
+    "name": "Claude",
+    "developer": "Anthropic",
+    "category": "AI Chatbots",
+    "rating": 4.9,
+    "description": "Helpful, honest AI assistant with long context.",
+    "longDescription": "Claude is Anthropic's family of AI models, known for careful reasoning, long context windows, strong coding ability, and a safety-first design philosophy. Available via chat, API, and IDE integrations.",
+    "website": "https://claude.ai",
+    "youtube": "https://www.youtube.com/watch?v=qsCnBFzHzgg",
+    "logoHue": 148,
+    "logoInitials": "CL",
+    "platforms": [
+      "Web",
+      "Desktop",
+      "iOS",
+      "Android"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Everyone",
+    "features": [
+      "Long context window",
+      "Artifacts for live previews",
+      "Strong coding ability",
+      "Careful reasoning"
+    ],
+    "pros": [
+      "Excellent writing quality",
+      "Great for coding",
+      "Thoughtful, safe responses"
+    ],
+    "cons": [
+      "Usage limits on free tier",
+      "Slower than some competitors on simple tasks"
+    ],
+    "tags": [
+      "chatbot",
+      "assistant",
+      "llm",
+      "coding"
+    ],
+    "alternatives": [
+      "ChatGPT",
+      "Gemini",
+      "Cursor"
+    ],
+    "badges": [
+      "new"
+    ],
+    "dateAdded": "2026-07-10",
+    "logo": "assets/logos/claude.svg"
+  },
+  {
+    "id": 3,
+    "name": "Gemini",
+    "developer": "Google",
+    "category": "AI Chatbots",
+    "rating": 4.6,
+    "description": "Google's multimodal AI assistant.",
+    "longDescription": "Gemini is Google's multimodal AI model family integrated across Search, Workspace, and Android, capable of understanding text, images, audio, and video in a single conversation.",
+    "website": "https://gemini.google.com",
+    "youtube": "https://www.youtube.com/watch?v=UIZAiXYceBI",
+    "logoHue": 16,
+    "logoInitials": "GE",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Everyone",
+    "features": [
+      "Multimodal input",
+      "Google Workspace integration",
+      "Real-time info via Search",
+      "Extensions"
+    ],
+    "pros": [
+      "Deep Google integration",
+      "Strong multimodal understanding",
+      "Free tier is generous"
+    ],
+    "cons": [
+      "Inconsistent output quality",
+      "Privacy concerns for some users"
+    ],
+    "tags": [
+      "chatbot",
+      "assistant",
+      "multimodal",
+      "google"
+    ],
+    "alternatives": [
+      "ChatGPT",
+      "Claude",
+      "Perplexity"
+    ],
+    "badges": [],
+    "dateAdded": "2026-05-18",
+    "logo": "assets/logos/gemini.svg"
+  },
+  {
+    "id": 4,
+    "name": "Perplexity",
+    "developer": "Perplexity AI",
+    "category": "Research",
+    "rating": 4.6,
+    "description": "AI-powered answer engine with citations.",
+    "longDescription": "Perplexity combines large language models with real-time web search to deliver cited, up-to-date answers, making it a favorite research and fact-checking tool.",
+    "website": "https://www.perplexity.ai",
+    "youtube": "https://www.youtube.com/watch?v=OQFQr9Ffkt0",
+    "logoHue": 185,
+    "logoInitials": "PE",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Researchers",
+    "features": [
+      "Real-time web search",
+      "Source citations",
+      "Focus modes",
+      "Pro search"
+    ],
+    "pros": [
+      "Reliable citations",
+      "Great for research",
+      "Fast answers"
+    ],
+    "cons": [
+      "Free tier limited queries",
+      "Can miss nuance in complex topics"
+    ],
+    "tags": [
+      "research",
+      "search",
+      "citations",
+      "assistant"
+    ],
+    "alternatives": [
+      "ChatGPT",
+      "Gemini",
+      "Claude"
+    ],
+    "badges": [],
+    "dateAdded": "2026-04-22",
+    "logo": "assets/logos/perplexity.svg"
+  },
+  {
+    "id": 5,
+    "name": "GitHub Copilot",
+    "developer": "GitHub / OpenAI",
+    "category": "Coding",
+    "rating": 4.7,
+    "description": "AI pair programmer inside your editor.",
+    "longDescription": "GitHub Copilot suggests whole lines or functions of code in real time inside popular editors, trained on billions of lines of public code and tuned for developer workflows.",
+    "website": "https://github.com/features/copilot",
+    "youtube": "https://www.youtube.com/watch?v=FQyPzOOtsIA",
+    "logoHue": 263,
+    "logoInitials": "GC",
+    "platforms": [
+      "VS Code",
+      "JetBrains",
+      "Neovim",
+      "Visual Studio"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Intermediate",
+    "industry": "Developers",
+    "features": [
+      "Inline code suggestions",
+      "Chat in editor",
+      "Multi-file edits",
+      "CLI support"
+    ],
+    "pros": [
+      "Deep IDE integration",
+      "Speeds up boilerplate",
+      "Constantly improving"
+    ],
+    "cons": [
+      "Subscription required",
+      "Occasional irrelevant suggestions"
+    ],
+    "tags": [
+      "coding",
+      "autocomplete",
+      "developer tools"
+    ],
+    "alternatives": [
+      "Cursor",
+      "Windsurf",
+      "Claude"
+    ],
+    "badges": [],
+    "dateAdded": "2026-01-14",
+    "logo": "assets/logos/github-copilot.svg"
+  },
+  {
+    "id": 6,
+    "name": "Cursor",
+    "developer": "Anysphere",
+    "category": "Coding",
+    "rating": 4.7,
+    "description": "AI-first code editor built on VS Code.",
+    "longDescription": "Cursor is a code editor forked from VS Code with AI deeply woven into the editing experience, letting developers chat with, edit, and generate code across an entire codebase.",
+    "website": "https://cursor.sh",
+    "youtube": "https://www.youtube.com/watch?v=ocMOZpuAMw4",
+    "logoHue": 230,
+    "logoInitials": "CU",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Developers",
+    "features": [
+      "Codebase-aware chat",
+      "Multi-file edits",
+      "Terminal AI",
+      "Tab autocomplete"
+    ],
+    "pros": [
+      "Very fast workflow",
+      "Great for large refactors",
+      "Familiar VS Code base"
+    ],
+    "cons": [
+      "Paid plan needed for heavy use",
+      "Can be resource intensive"
+    ],
+    "tags": [
+      "coding",
+      "editor",
+      "developer tools"
+    ],
+    "alternatives": [
+      "Windsurf",
+      "GitHub Copilot",
+      "Claude"
+    ],
+    "badges": [
+      "trending",
+      "new"
+    ],
+    "dateAdded": "2026-06-30",
+    "logo": "assets/logos/cursor.svg"
+  },
+  {
+    "id": 7,
+    "name": "Windsurf",
+    "developer": "Codeium",
+    "category": "Coding",
+    "rating": 4.5,
+    "description": "Agentic AI coding IDE.",
+    "longDescription": "Windsurf is an agentic IDE that can autonomously plan and execute multi-step coding tasks across a project, going beyond simple autocomplete into full task execution.",
+    "website": "https://codeium.com/windsurf",
+    "youtube": "https://www.youtube.com/watch?v=bAe73H6ma9M",
+    "logoHue": 307,
+    "logoInitials": "WI",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Developers",
+    "features": [
+      "Agentic task execution",
+      "Multi-file context",
+      "Built-in chat",
+      "Free tier"
+    ],
+    "pros": [
+      "Strong agent mode",
+      "Generous free tier",
+      "Fast iteration"
+    ],
+    "cons": [
+      "Newer, smaller community",
+      "Occasional agent mistakes"
+    ],
+    "tags": [
+      "coding",
+      "editor",
+      "agent"
+    ],
+    "alternatives": [
+      "Cursor",
+      "GitHub Copilot"
+    ],
+    "badges": [
+      "new"
+    ],
+    "dateAdded": "2026-07-15",
+    "logo": "assets/logos/windsurf.svg"
+  },
+  {
+    "id": 8,
+    "name": "Midjourney",
+    "developer": "Midjourney Inc.",
+    "category": "Image Generation",
+    "rating": 4.7,
+    "description": "AI image generator known for artistic quality.",
+    "longDescription": "Midjourney generates highly stylized, artistic images from text prompts, run primarily through Discord, and is favored by artists and designers for its distinctive aesthetic.",
+    "website": "https://www.midjourney.com",
+    "youtube": "https://www.youtube.com/watch?v=nfjNq-2mCow",
+    "logoHue": 313,
+    "logoInitials": "MI",
+    "platforms": [
+      "Web",
+      "Discord"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Beginner",
+    "industry": "Designers",
+    "features": [
+      "Text-to-image",
+      "Style presets",
+      "Upscaling",
+      "Image blending"
+    ],
+    "pros": [
+      "Best-in-class aesthetics",
+      "Active community",
+      "Frequent model updates"
+    ],
+    "cons": [
+      "No free tier",
+      "Discord-based workflow can be clunky"
+    ],
+    "tags": [
+      "image generation",
+      "art",
+      "design"
+    ],
+    "alternatives": [
+      "Leonardo AI",
+      "Stable Diffusion",
+      "Adobe Firefly"
+    ],
+    "badges": [],
+    "dateAdded": "2025-11-08",
+    "logo": "assets/logos/midjourneyai-online-logo.png"
+  },
+  {
+    "id": 9,
+    "name": "Leonardo AI",
+    "developer": "Leonardo.Ai",
+    "category": "Image Generation",
+    "rating": 4.4,
+    "description": "AI platform for game and creative assets.",
+    "longDescription": "Leonardo AI provides fine-tuned models for generating game assets, concept art, and marketing images, with tools for training custom models on your own style.",
+    "website": "https://leonardo.ai",
+    "youtube": "https://www.youtube.com/watch?v=6b9v1H0kJ3E",
+    "logoHue": 247,
+    "logoInitials": "LA",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Designers",
+    "features": [
+      "Custom model training",
+      "Texture generation",
+      "Real-time canvas",
+      "API access"
+    ],
+    "pros": [
+      "Good free tier",
+      "Great for game assets",
+      "Custom fine-tuning"
+    ],
+    "cons": [
+      "Learning curve for advanced features",
+      "Queue times on free tier"
+    ],
+    "tags": [
+      "image generation",
+      "game assets",
+      "design"
+    ],
+    "alternatives": [
+      "Midjourney",
+      "Stable Diffusion"
+    ],
+    "badges": [],
+    "dateAdded": "2026-02-11",
+    "logo": "assets/logos/leonardo-com-logo.png"
+  },
+  {
+    "id": 10,
+    "name": "Runway",
+    "developer": "Runway AI",
+    "category": "Video Generation",
+    "rating": 4.5,
+    "description": "AI video generation and editing suite.",
+    "longDescription": "Runway offers a suite of AI tools for generating and editing video, including text-to-video, video-to-video, and green-screen removal, aimed at filmmakers and creators.",
+    "website": "https://runwayml.com",
+    "youtube": "https://www.youtube.com/watch?v=RRb03rWzL8w",
+    "logoHue": 289,
+    "logoInitials": "RU",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Content Creators",
+    "features": [
+      "Text-to-video",
+      "Green screen",
+      "Motion brush",
+      "Video inpainting"
+    ],
+    "pros": [
+      "Cutting-edge video models",
+      "Wide creative toolkit",
+      "Active development"
+    ],
+    "cons": [
+      "Credits run out fast",
+      "Rendering can be slow"
+    ],
+    "tags": [
+      "video generation",
+      "editing",
+      "filmmaking"
+    ],
+    "alternatives": [
+      "HeyGen",
+      "Synthesia"
+    ],
+    "badges": [],
+    "dateAdded": "2026-03-26",
+    "logo": "assets/logos/runway.png"
+  },
+  {
+    "id": 11,
+    "name": "ElevenLabs",
+    "developer": "ElevenLabs",
+    "category": "Audio",
+    "rating": 4.7,
+    "description": "Realistic AI voice generation and cloning.",
+    "longDescription": "ElevenLabs produces highly realistic text-to-speech and voice cloning, used for audiobooks, dubbing, and voiceovers across dozens of languages.",
+    "website": "https://elevenlabs.io",
+    "youtube": "https://www.youtube.com/watch?v=6TZW-adfvVs",
+    "logoHue": 357,
+    "logoInitials": "EL",
+    "platforms": [
+      "Web",
+      "API"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Content Creators",
+    "features": [
+      "Voice cloning",
+      "Multilingual TTS",
+      "Dubbing studio",
+      "API access"
+    ],
+    "pros": [
+      "Extremely natural voices",
+      "Fast generation",
+      "Wide language support"
+    ],
+    "cons": [
+      "Cloning raises ethical questions",
+      "Costs scale with usage"
+    ],
+    "tags": [
+      "audio",
+      "text to speech",
+      "voice cloning"
+    ],
+    "alternatives": [
+      "Suno",
+      "Synthesia"
+    ],
+    "badges": [],
+    "dateAdded": "2026-01-30",
+    "logo": "assets/logos/elevenlabs.svg"
+  },
+  {
+    "id": 12,
+    "name": "Canva AI",
+    "developer": "Canva",
+    "category": "Design",
+    "rating": 4.6,
+    "description": "AI design tools built into Canva.",
+    "longDescription": "Canva AI (Magic Studio) adds AI-powered design generation, background removal, and text-to-image directly into Canva's drag-and-drop design platform.",
+    "website": "https://www.canva.com/ai-image-generator",
+    "youtube": "https://www.youtube.com/watch?v=6iAgy6qkH8I",
+    "logoHue": 300,
+    "logoInitials": "CA",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Small Business",
+    "features": [
+      "Magic Design",
+      "Background remover",
+      "Text-to-image",
+      "Magic Write"
+    ],
+    "pros": [
+      "Beginner friendly",
+      "Integrated into full design suite",
+      "Fast templates"
+    ],
+    "cons": [
+      "Advanced features need Pro",
+      "Less control than pure design tools"
+    ],
+    "tags": [
+      "design",
+      "templates",
+      "graphics"
+    ],
+    "alternatives": [
+      "Adobe Firefly",
+      "Leonardo AI"
+    ],
+    "badges": [
+      "trending"
+    ],
+    "dateAdded": "2026-05-02",
+    "logo": "assets/logos/canva-ai.png"
+  },
+  {
+    "id": 13,
+    "name": "Notion AI",
+    "developer": "Notion Labs",
+    "category": "Productivity",
+    "rating": 4.5,
+    "description": "AI writing and knowledge assistant inside Notion.",
+    "longDescription": "Notion AI is built into the Notion workspace app, helping users draft, summarize, translate, and organize notes and documents without leaving their existing workflow.",
+    "website": "https://www.notion.so/product/ai",
+    "youtube": "https://www.youtube.com/watch?v=zLnMMz2AoNc",
+    "logoHue": 143,
+    "logoInitials": "NA",
+    "platforms": [
+      "Web",
+      "Desktop",
+      "iOS",
+      "Android"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Beginner",
+    "industry": "Everyone",
+    "features": [
+      "Q&A over workspace",
+      "Writing assistant",
+      "Summarization",
+      "Translation"
+    ],
+    "pros": [
+      "Seamless in Notion",
+      "Good for knowledge bases",
+      "Saves writing time"
+    ],
+    "cons": [
+      "Add-on cost",
+      "Only useful if already using Notion"
+    ],
+    "tags": [
+      "productivity",
+      "writing",
+      "notes"
+    ],
+    "alternatives": [
+      "Grammarly",
+      "ChatGPT"
+    ],
+    "badges": [],
+    "dateAdded": "2026-02-19",
+    "logo": "assets/logos/notion-ai.svg"
+  },
+  {
+    "id": 14,
+    "name": "Grammarly",
+    "developer": "Grammarly Inc.",
+    "category": "Writing",
+    "rating": 4.6,
+    "description": "AI writing assistant for grammar and style.",
+    "longDescription": "Grammarly checks grammar, tone, and clarity across browsers, desktop apps, and Office, and now includes generative AI features for rewriting and drafting text.",
+    "website": "https://www.grammarly.com",
+    "youtube": "https://www.youtube.com/watch?v=t8DdY6c8fBE",
+    "logoHue": 61,
+    "logoInitials": "GR",
+    "platforms": [
+      "Web",
+      "Desktop",
+      "Browser Extension"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Students",
+    "features": [
+      "Grammar & spell check",
+      "Tone detection",
+      "AI rewriting",
+      "Plagiarism check"
+    ],
+    "pros": [
+      "Works everywhere you type",
+      "Reliable grammar checks",
+      "Easy to use"
+    ],
+    "cons": [
+      "Premium features paywalled",
+      "Occasional over-correction"
+    ],
+    "tags": [
+      "writing",
+      "grammar",
+      "editing"
+    ],
+    "alternatives": [
+      "DeepL",
+      "Notion AI"
+    ],
+    "badges": [],
+    "dateAdded": "2025-10-05",
+    "logo": "assets/logos/grammarly.svg"
+  },
+  {
+    "id": 15,
+    "name": "DeepL",
+    "developer": "DeepL SE",
+    "category": "Writing",
+    "rating": 4.7,
+    "description": "High-quality AI translation.",
+    "longDescription": "DeepL uses neural networks to deliver translations widely regarded as more natural and accurate than typical machine translation, across 30+ languages.",
+    "website": "https://www.deepl.com",
+    "youtube": "https://www.youtube.com/watch?v=4DlWreoJmc0",
+    "logoHue": 288,
+    "logoInitials": "DE",
+    "platforms": [
+      "Web",
+      "Desktop",
+      "API"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Everyone",
+    "features": [
+      "Neural translation",
+      "Document translation",
+      "Glossary support",
+      "API access"
+    ],
+    "pros": [
+      "Very natural phrasing",
+      "Fast translation",
+      "Good document handling"
+    ],
+    "cons": [
+      "Fewer languages than Google Translate",
+      "API pricing adds up"
+    ],
+    "tags": [
+      "translation",
+      "writing",
+      "language"
+    ],
+    "alternatives": [
+      "Grammarly",
+      "ChatGPT"
+    ],
+    "badges": [
+      "new"
+    ],
+    "dateAdded": "2026-06-11",
+    "logo": "assets/logos/deepl.svg"
+  },
+  {
+    "id": 16,
+    "name": "Suno",
+    "developer": "Suno AI",
+    "category": "Audio",
+    "rating": 4.5,
+    "description": "AI music generation from text prompts.",
+    "longDescription": "Suno generates full songs, including vocals and instrumentation, from simple text prompts, letting anyone create original music without instruments or production skills.",
+    "website": "https://suno.com",
+    "youtube": "https://www.youtube.com/watch?v=v3qhxLXKzeQ",
+    "logoHue": 109,
+    "logoInitials": "SU",
+    "platforms": [
+      "Web",
+      "iOS"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Content Creators",
+    "features": [
+      "Text-to-song",
+      "Vocal generation",
+      "Style customization",
+      "Stem export"
+    ],
+    "pros": [
+      "Fun and easy to use",
+      "Surprisingly good vocals",
+      "Fast generation"
+    ],
+    "cons": [
+      "Limited free credits",
+      "Commercial rights need paid plan"
+    ],
+    "tags": [
+      "audio",
+      "music generation",
+      "creative"
+    ],
+    "alternatives": [
+      "ElevenLabs"
+    ],
+    "badges": [],
+    "dateAdded": "2026-04-09",
+    "logo": "assets/logos/suno.svg"
+  },
+  {
+    "id": 17,
+    "name": "HeyGen",
+    "developer": "HeyGen",
+    "category": "Video Generation",
+    "rating": 4.5,
+    "description": "AI avatar video generator.",
+    "longDescription": "HeyGen creates talking avatar videos from text scripts, supporting custom avatars and voice cloning, popular for marketing and training videos.",
+    "website": "https://www.heygen.com",
+    "youtube": "https://www.youtube.com/watch?v=t0EHOOTGVJg",
+    "logoHue": 68,
+    "logoInitials": "HE",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Marketers",
+    "features": [
+      "Custom avatars",
+      "Voice cloning",
+      "Multilingual dubbing",
+      "Template library"
+    ],
+    "pros": [
+      "Realistic avatars",
+      "Fast video turnaround",
+      "Good for localization"
+    ],
+    "cons": [
+      "Credits limited on free plan",
+      "Avatar movement can look stiff"
+    ],
+    "tags": [
+      "video generation",
+      "avatars",
+      "marketing"
+    ],
+    "alternatives": [
+      "Synthesia",
+      "Runway"
+    ],
+    "badges": [],
+    "dateAdded": "2026-03-01",
+    "logo": "assets/logos/heygen.png"
+  },
+  {
+    "id": 18,
+    "name": "Synthesia",
+    "developer": "Synthesia",
+    "category": "Video Generation",
+    "rating": 4.5,
+    "description": "AI video creation with digital presenters.",
+    "longDescription": "Synthesia turns text scripts into professional videos featuring AI presenters, widely used for corporate training and explainer videos in 120+ languages.",
+    "website": "https://www.synthesia.io",
+    "youtube": "https://www.youtube.com/watch?v=BR3lBz4qDMs",
+    "logoHue": 79,
+    "logoInitials": "SY",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Beginner",
+    "industry": "Enterprises",
+    "features": [
+      "120+ languages",
+      "Custom AI avatars",
+      "Screen recording",
+      "Templates"
+    ],
+    "pros": [
+      "Professional output",
+      "Huge language support",
+      "Easy for non-editors"
+    ],
+    "cons": [
+      "No free tier",
+      "Higher price point"
+    ],
+    "tags": [
+      "video generation",
+      "training videos",
+      "avatars"
+    ],
+    "alternatives": [
+      "HeyGen"
+    ],
+    "badges": [
+      "trending"
+    ],
+    "dateAdded": "2025-12-20",
+    "logo": "assets/logos/synthesia.png"
+  },
+  {
+    "id": 19,
+    "name": "Adobe Firefly",
+    "developer": "Adobe",
+    "category": "Image Generation",
+    "rating": 4.4,
+    "description": "Adobe's generative AI for creatives.",
+    "longDescription": "Adobe Firefly is a family of generative AI models integrated into Photoshop, Illustrator, and Express, trained on licensed content for commercially safe creative generation.",
+    "website": "https://www.adobe.com/products/firefly.html",
+    "youtube": "https://www.youtube.com/watch?v=Xrq2SqrPWM8",
+    "logoHue": 260,
+    "logoInitials": "AF",
+    "platforms": [
+      "Web",
+      "Photoshop",
+      "Illustrator"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Designers",
+    "features": [
+      "Generative fill",
+      "Text-to-image",
+      "Text effects",
+      "Commercially safe training data"
+    ],
+    "pros": [
+      "Deep Adobe integration",
+      "Commercial-safe licensing",
+      "Consistent quality"
+    ],
+    "cons": [
+      "Needs Creative Cloud for full power",
+      "Slower than dedicated tools"
+    ],
+    "tags": [
+      "image generation",
+      "design",
+      "adobe"
+    ],
+    "alternatives": [
+      "Midjourney",
+      "Canva AI"
+    ],
+    "badges": [],
+    "dateAdded": "2026-01-27",
+    "logo": "assets/logos/fireflyon-com-logo.png"
+  },
+  {
+    "id": 20,
+    "name": "Stable Diffusion",
+    "developer": "Stability AI",
+    "category": "Image Generation",
+    "rating": 4.5,
+    "description": "Open-source image generation model.",
+    "longDescription": "Stable Diffusion is an open-source text-to-image model that can be run locally or via cloud services, offering full customization, fine-tuning, and no vendor lock-in.",
+    "website": "https://stability.ai",
+    "youtube": "https://www.youtube.com/watch?v=1CIpzeNxIhU",
+    "logoHue": 147,
+    "logoInitials": "SD",
+    "platforms": [
+      "Web",
+      "Local",
+      "API"
+    ],
+    "pricing": "Free",
+    "skillLevel": "Advanced",
+    "industry": "Developers",
+    "features": [
+      "Open source",
+      "Local execution",
+      "Custom fine-tuning",
+      "ControlNet support"
+    ],
+    "pros": [
+      "Free and open source",
+      "Highly customizable",
+      "Large community of models"
+    ],
+    "cons": [
+      "Requires technical setup for local use",
+      "Quality varies by checkpoint"
+    ],
+    "tags": [
+      "image generation",
+      "open source",
+      "art"
+    ],
+    "alternatives": [
+      "Midjourney",
+      "Leonardo AI"
+    ],
+    "badges": [],
+    "dateAdded": "2025-09-14",
+    "logo": "assets/logos/stable-diffusion-org-logo.png"
+  },
+  {
+    "id": 21,
+    "name": "Jasper",
+    "developer": "Jasper AI",
+    "category": "Writing",
+    "rating": 4.3,
+    "description": "AI content platform for marketing teams.",
+    "longDescription": "Jasper is built for marketing teams to generate on-brand blog posts, ads, and social copy at scale, with brand voice and campaign workflow tools.",
+    "website": "https://www.jasper.ai",
+    "youtube": "https://www.youtube.com/watch?v=YXiK1sYNiJ8",
+    "logoHue": 253,
+    "logoInitials": "JA",
+    "platforms": [
+      "Web",
+      "Browser Extension"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Intermediate",
+    "industry": "Marketers",
+    "features": [
+      "Brand voice",
+      "Campaign workflows",
+      "SEO mode",
+      "Team collaboration"
+    ],
+    "pros": [
+      "Built for marketing teams",
+      "Brand consistency tools",
+      "Good templates"
+    ],
+    "cons": [
+      "Expensive for solo users",
+      "Output needs editing"
+    ],
+    "tags": [
+      "writing",
+      "marketing",
+      "content"
+    ],
+    "alternatives": [
+      "Copy.ai",
+      "Grammarly"
+    ],
+    "badges": [],
+    "dateAdded": "2026-02-05",
+    "logo": "assets/logos/jasper.png"
+  },
+  {
+    "id": 22,
+    "name": "Copy.ai",
+    "developer": "Copy.ai",
+    "category": "Marketing",
+    "rating": 4.2,
+    "description": "AI copywriting and workflow automation.",
+    "longDescription": "Copy.ai generates marketing copy and automates go-to-market workflows, combining generative writing with light automation for sales and marketing teams.",
+    "website": "https://www.copy.ai",
+    "youtube": "https://www.youtube.com/watch?v=U9mJuUkhUzk",
+    "logoHue": 175,
+    "logoInitials": "CA",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Marketers",
+    "features": [
+      "Workflow automation",
+      "Copy templates",
+      "Chat interface",
+      "CRM integrations"
+    ],
+    "pros": [
+      "Good free tier",
+      "Workflow automation is powerful",
+      "Easy templates"
+    ],
+    "cons": [
+      "Output can feel generic",
+      "Automation setup takes time"
+    ],
+    "tags": [
+      "marketing",
+      "writing",
+      "automation"
+    ],
+    "alternatives": [
+      "Jasper",
+      "Notion AI"
+    ],
+    "badges": [
+      "new"
+    ],
+    "dateAdded": "2026-06-19",
+    "logo": "assets/logos/copyai.png"
+  },
+  {
+    "id": 23,
+    "name": "Otter.ai",
+    "developer": "Otter.ai",
+    "category": "Productivity",
+    "rating": 4.4,
+    "description": "AI meeting transcription and notes.",
+    "longDescription": "Otter.ai records and transcribes meetings in real time, generating summaries, action items, and searchable notes synced with calendar apps.",
+    "website": "https://otter.ai",
+    "youtube": "https://www.youtube.com/watch?v=P8YQx1ZhOWI",
+    "logoHue": 217,
+    "logoInitials": "OA",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Enterprises",
+    "features": [
+      "Live transcription",
+      "Automated summaries",
+      "Speaker identification",
+      "Calendar sync"
+    ],
+    "pros": [
+      "Accurate transcription",
+      "Saves meeting time",
+      "Good integrations"
+    ],
+    "cons": [
+      "Free tier has minute limits",
+      "Accuracy drops with heavy accents"
+    ],
+    "tags": [
+      "productivity",
+      "transcription",
+      "meetings"
+    ],
+    "alternatives": [
+      "Notion AI"
+    ],
+    "badges": [],
+    "dateAdded": "2026-04-28",
+    "logo": "assets/logos/otterai.png"
+  },
+  {
+    "id": 24,
+    "name": "Gamma",
+    "developer": "Gamma",
+    "category": "Productivity",
+    "rating": 4.4,
+    "description": "AI presentation and document generator.",
+    "longDescription": "Gamma generates polished presentations, documents, and webpages from a text prompt or outline, removing manual slide design work.",
+    "website": "https://gamma.app",
+    "youtube": "https://www.youtube.com/watch?v=WwyN62pdo00",
+    "logoHue": 21,
+    "logoInitials": "GA",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Everyone",
+    "features": [
+      "Text-to-presentation",
+      "Theme customization",
+      "One-click layouts",
+      "Sharing links"
+    ],
+    "pros": [
+      "Very fast slide creation",
+      "Clean modern themes",
+      "No design skills needed"
+    ],
+    "cons": [
+      "Limited layout control",
+      "Credits on free tier"
+    ],
+    "tags": [
+      "productivity",
+      "presentations",
+      "design"
+    ],
+    "alternatives": [
+      "Canva AI",
+      "Notion AI"
+    ],
+    "badges": [
+      "trending",
+      "new"
+    ],
+    "dateAdded": "2026-07-05",
+    "logo": "assets/logos/gamma.png"
+  },
+  {
+    "id": 25,
+    "name": "Descript",
+    "developer": "Descript",
+    "category": "Audio",
+    "rating": 4.5,
+    "description": "Edit audio and video by editing text.",
+    "longDescription": "Descript lets creators edit podcasts and videos by editing a text transcript, plus AI tools for filler-word removal, voice cloning, and studio sound.",
+    "website": "https://www.descript.com",
+    "youtube": "https://www.youtube.com/watch?v=OQPP6JT1_dw",
+    "logoHue": 239,
+    "logoInitials": "DE",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Content Creators",
+    "features": [
+      "Text-based editing",
+      "Overdub voice cloning",
+      "Studio sound cleanup",
+      "Screen recording"
+    ],
+    "pros": [
+      "Unique editing workflow",
+      "Great audio cleanup",
+      "Beginner friendly"
+    ],
+    "cons": [
+      "Steeper learning curve for pro features",
+      "Exports limited on free tier"
+    ],
+    "tags": [
+      "audio",
+      "video editing",
+      "podcasting"
+    ],
+    "alternatives": [
+      "ElevenLabs",
+      "Runway"
+    ],
+    "badges": [],
+    "dateAdded": "2026-01-09",
+    "logo": "assets/logos/descript.png"
+  },
+  {
+    "id": 26,
+    "name": "Replit AI",
+    "developer": "Replit",
+    "category": "Coding",
+    "rating": 4.3,
+    "description": "AI-assisted cloud coding environment.",
+    "longDescription": "Replit AI, including its Agent, helps build and deploy full applications directly in the browser, from code generation to hosting.",
+    "website": "https://replit.com/ai",
+    "youtube": "https://www.youtube.com/watch?v=hDNSNRO2Ldk",
+    "logoHue": 134,
+    "logoInitials": "RA",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Students",
+    "features": [
+      "In-browser IDE",
+      "AI Agent for full apps",
+      "One-click deploy",
+      "Collaboration"
+    ],
+    "pros": [
+      "No local setup needed",
+      "Good for quick prototypes",
+      "Built-in hosting"
+    ],
+    "cons": [
+      "Can get costly at scale",
+      "Performance varies for large projects"
+    ],
+    "tags": [
+      "coding",
+      "cloud IDE",
+      "deployment"
+    ],
+    "alternatives": [
+      "Cursor",
+      "GitHub Copilot"
+    ],
+    "badges": [],
+    "dateAdded": "2026-03-15",
+    "logo": "assets/logos/replit-ai.svg"
+  },
+  {
+    "id": 27,
+    "name": "Tabnine",
+    "developer": "Tabnine",
+    "category": "Coding",
+    "rating": 4.1,
+    "description": "Privacy-focused AI code completion.",
+    "longDescription": "Tabnine offers AI code completion with an emphasis on privacy, offering on-premises and local model options for enterprises with strict data policies.",
+    "website": "https://www.tabnine.com",
+    "youtube": "https://www.youtube.com/watch?v=iN3x0pemsCU",
+    "logoHue": 342,
+    "logoInitials": "TA",
+    "platforms": [
+      "VS Code",
+      "JetBrains",
+      "Vim"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Enterprises",
+    "features": [
+      "Local/private models",
+      "Team training on codebase",
+      "Multi-language support"
+    ],
+    "pros": [
+      "Strong privacy options",
+      "Good enterprise fit",
+      "Fast completions"
+    ],
+    "cons": [
+      "Less capable than top competitors on complex tasks",
+      "UI feels dated"
+    ],
+    "tags": [
+      "coding",
+      "autocomplete",
+      "privacy"
+    ],
+    "alternatives": [
+      "GitHub Copilot",
+      "Cursor"
+    ],
+    "badges": [],
+    "dateAdded": "2025-11-30",
+    "logo": "assets/logos/tabnine.png"
+  },
+  {
+    "id": 28,
+    "name": "Character.AI",
+    "developer": "Character.AI",
+    "category": "AI Chatbots",
+    "rating": 4.1,
+    "description": "Chat with AI-generated characters.",
+    "longDescription": "Character.AI lets users create and converse with custom AI personas and characters, popular for roleplay, entertainment, and companionship-style chat.",
+    "website": "https://character.ai",
+    "youtube": "https://www.youtube.com/watch?v=uSy-FfLKV1w",
+    "logoHue": 95,
+    "logoInitials": "CA",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Everyone",
+    "features": [
+      "Custom character creation",
+      "Voice chat",
+      "Group chats",
+      "Community characters"
+    ],
+    "pros": [
+      "Fun and creative",
+      "Large character library",
+      "Active community"
+    ],
+    "cons": [
+      "Responses can be inconsistent",
+      "Content moderation concerns"
+    ],
+    "tags": [
+      "chatbot",
+      "roleplay",
+      "entertainment"
+    ],
+    "alternatives": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "badges": [],
+    "dateAdded": "2026-02-23",
+    "logo": "assets/logos/characterai.png"
+  },
+  {
+    "id": 29,
+    "name": "You.com",
+    "developer": "You.com",
+    "category": "Research",
+    "rating": 4.0,
+    "description": "AI search engine with app integrations.",
+    "longDescription": "You.com is an AI-powered search engine that blends chat, web results, and app-like modes for coding, writing, and research into a single interface.",
+    "website": "https://you.com",
+    "youtube": "https://www.youtube.com/watch?v=dSKw4pJgAJU",
+    "logoHue": 344,
+    "logoInitials": "YC",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Researchers",
+    "features": [
+      "AI search modes",
+      "Multiple model choice",
+      "Coding mode",
+      "Custom apps"
+    ],
+    "pros": [
+      "Flexible model selection",
+      "Good privacy stance",
+      "Useful search modes"
+    ],
+    "cons": [
+      "Interface can feel cluttered",
+      "Less polished than dedicated tools"
+    ],
+    "tags": [
+      "research",
+      "search",
+      "assistant"
+    ],
+    "alternatives": [
+      "Perplexity",
+      "ChatGPT"
+    ],
+    "badges": [],
+    "dateAdded": "2025-10-27",
+    "logo": "assets/logos/youcom.png"
+  },
+  {
+    "id": 30,
+    "name": "Hugging Face",
+    "developer": "Hugging Face",
+    "category": "Data Science",
+    "rating": 4.6,
+    "description": "Open-source AI model and dataset hub.",
+    "longDescription": "Hugging Face hosts thousands of open-source models, datasets, and Spaces, and provides libraries like Transformers used widely across the AI research community.",
+    "website": "https://huggingface.co",
+    "youtube": "https://www.youtube.com/watch?v=QEaBAZQCtwE",
+    "logoHue": 73,
+    "logoInitials": "HF",
+    "platforms": [
+      "Web",
+      "API"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Advanced",
+    "industry": "Developers",
+    "features": [
+      "Model hub",
+      "Datasets hub",
+      "Spaces demos",
+      "Transformers library"
+    ],
+    "pros": [
+      "Massive open ecosystem",
+      "Great for research",
+      "Free hosting for demos"
+    ],
+    "cons": [
+      "Can be overwhelming for beginners",
+      "Enterprise features cost extra"
+    ],
+    "tags": [
+      "data science",
+      "open source",
+      "models"
+    ],
+    "alternatives": [
+      "Stable Diffusion"
+    ],
+    "badges": [
+      "trending"
+    ],
+    "dateAdded": "2026-05-31",
+    "logo": "assets/logos/hugging-face.svg"
+  },
+  {
+    "id": 31,
+    "name": "Dataiku",
+    "developer": "Dataiku",
+    "category": "Data Science",
+    "rating": 4.3,
+    "description": "Enterprise AI and data science platform.",
+    "longDescription": "Dataiku provides a visual, collaborative platform for building, deploying, and monitoring machine learning and AI models at enterprise scale.",
+    "website": "https://www.dataiku.com",
+    "youtube": "https://www.youtube.com/watch?v=2Dg1_-mBhVI",
+    "logoHue": 31,
+    "logoInitials": "DA",
+    "platforms": [
+      "Web",
+      "Desktop"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Advanced",
+    "industry": "Enterprises",
+    "features": [
+      "Visual ML pipelines",
+      "MLOps monitoring",
+      "Team collaboration",
+      "Data connectors"
+    ],
+    "pros": [
+      "Great for enterprise teams",
+      "No-code and code options",
+      "Strong governance"
+    ],
+    "cons": [
+      "Expensive licensing",
+      "Overkill for small projects"
+    ],
+    "tags": [
+      "data science",
+      "enterprise",
+      "mlops"
+    ],
+    "alternatives": [
+      "Hugging Face"
+    ],
+    "badges": [],
+    "dateAdded": "2025-12-02",
+    "logo": "assets/logos/dataiku.svg"
+  },
+  {
+    "id": 32,
+    "name": "Zapier AI",
+    "developer": "Zapier",
+    "category": "Business",
+    "rating": 4.3,
+    "description": "AI-powered workflow automation.",
+    "longDescription": "Zapier AI adds natural-language automation building to its workflow platform, connecting thousands of apps with AI-generated logic and actions.",
+    "website": "https://zapier.com/ai",
+    "youtube": "https://www.youtube.com/watch?v=loI9ydWEd_M",
+    "logoHue": 84,
+    "logoInitials": "ZA",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Small Business",
+    "features": [
+      "Natural-language automation",
+      "6000+ app integrations",
+      "AI actions",
+      "Templates"
+    ],
+    "pros": [
+      "Huge integration library",
+      "Saves manual setup time",
+      "Beginner friendly"
+    ],
+    "cons": [
+      "Costs scale with usage",
+      "Complex flows need testing"
+    ],
+    "tags": [
+      "business",
+      "automation",
+      "workflow"
+    ],
+    "alternatives": [
+      "Copy.ai",
+      "Notion AI"
+    ],
+    "badges": [
+      "new"
+    ],
+    "dateAdded": "2026-06-24",
+    "logo": "assets/logos/zapier-ai.svg"
+  },
+  {
+    "id": 33,
+    "name": "Salesforce Einstein",
+    "developer": "Salesforce",
+    "category": "Business",
+    "rating": 4.2,
+    "description": "AI built into Salesforce CRM.",
+    "longDescription": "Einstein embeds predictive and generative AI directly into Salesforce, powering lead scoring, email drafting, and forecasting within existing CRM workflows.",
+    "website": "https://www.salesforce.com/products/einstein",
+    "youtube": "https://www.youtube.com/watch?v=8jvKZ9m0new",
+    "logoHue": 272,
+    "logoInitials": "SE",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Intermediate",
+    "industry": "Enterprises",
+    "features": [
+      "Predictive lead scoring",
+      "Generative email drafting",
+      "Forecasting",
+      "CRM-native"
+    ],
+    "pros": [
+      "Deep CRM integration",
+      "Good for sales teams",
+      "Reliable predictions"
+    ],
+    "cons": [
+      "Requires Salesforce license",
+      "Setup can be complex"
+    ],
+    "tags": [
+      "business",
+      "crm",
+      "sales"
+    ],
+    "alternatives": [
+      "Zapier AI"
+    ],
+    "badges": [],
+    "dateAdded": "2025-08-19",
+    "logo": "assets/logos/salesforce-einstein.png"
+  },
+  {
+    "id": 34,
+    "name": "Intercom Fin",
+    "developer": "Intercom",
+    "category": "Business",
+    "rating": 4.4,
+    "description": "AI customer support agent.",
+    "longDescription": "Fin is Intercom's AI agent that resolves customer support tickets automatically using a company's help center content, escalating to humans when needed.",
+    "website": "https://www.intercom.com/fin",
+    "youtube": "https://www.youtube.com/watch?v=x8fmEohh1Yg",
+    "logoHue": 59,
+    "logoInitials": "IF",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Intermediate",
+    "industry": "Enterprises",
+    "features": [
+      "Automated ticket resolution",
+      "Help center grounding",
+      "Human handoff",
+      "Analytics"
+    ],
+    "pros": [
+      "High resolution rate",
+      "Reduces support workload",
+      "Easy setup with existing docs"
+    ],
+    "cons": [
+      "Pay-per-resolution pricing",
+      "Needs good help docs to work well"
+    ],
+    "tags": [
+      "business",
+      "customer support",
+      "chatbot"
+    ],
+    "alternatives": [
+      "ChatGPT"
+    ],
+    "badges": [],
+    "dateAdded": "2026-03-08",
+    "logo": "assets/logos/intercom-fin.png"
+  },
+  {
+    "id": 35,
+    "name": "Wealthfront Autopilot",
+    "developer": "Wealthfront",
+    "category": "Finance",
+    "rating": 4.0,
+    "description": "AI-driven automated investing.",
+    "longDescription": "Wealthfront uses algorithmic and AI-driven strategies to automatically manage diversified investment portfolios and optimize for tax efficiency.",
+    "website": "https://www.wealthfront.com",
+    "youtube": "https://www.youtube.com/watch?v=3crhqrJRLGU",
+    "logoHue": 80,
+    "logoInitials": "WA",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Everyone",
+    "features": [
+      "Automated rebalancing",
+      "Tax-loss harvesting",
+      "Goal planning",
+      "Low fees"
+    ],
+    "pros": [
+      "Hands-off investing",
+      "Low management fees",
+      "Good tax optimization"
+    ],
+    "cons": [
+      "Limited human advice",
+      "Not ideal for active traders"
+    ],
+    "tags": [
+      "finance",
+      "investing",
+      "automation"
+    ],
+    "alternatives": [],
+    "badges": [],
+    "dateAdded": "2025-09-30",
+    "logo": "assets/logos/wealthfront-autopilot.png"
+  },
+  {
+    "id": 36,
+    "name": "Cleo",
+    "developer": "Cleo AI",
+    "category": "Finance",
+    "rating": 3.9,
+    "description": "AI budgeting assistant with personality.",
+    "longDescription": "Cleo is a chat-based budgeting app that uses AI with a playful tone to track spending, build savings, and nudge better financial habits.",
+    "website": "https://www.meetcleo.com",
+    "youtube": "https://www.youtube.com/watch?v=8FpQY-6bZzI",
+    "logoHue": 251,
+    "logoInitials": "CL",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Students",
+    "features": [
+      "Spending tracking",
+      "Savings challenges",
+      "Budget roasts",
+      "Cash advances"
+    ],
+    "pros": [
+      "Fun, engaging tone",
+      "Good for building habits",
+      "Easy budgeting insights"
+    ],
+    "cons": [
+      "Subscription for full features",
+      "Humor isn't for everyone"
+    ],
+    "tags": [
+      "finance",
+      "budgeting",
+      "chatbot"
+    ],
+    "alternatives": [
+      "Wealthfront Autopilot"
+    ],
+    "badges": [
+      "trending"
+    ],
+    "dateAdded": "2026-04-15",
+    "logo": "assets/logos/cleo.png"
+  },
+  {
+    "id": 37,
+    "name": "Duolingo Max",
+    "developer": "Duolingo",
+    "category": "Education",
+    "rating": 4.5,
+    "description": "AI-powered language learning tier.",
+    "longDescription": "Duolingo Max adds generative AI features like Explain My Answer and Roleplay conversations on top of Duolingo's gamified language courses.",
+    "website": "https://www.duolingo.com",
+    "youtube": "https://www.youtube.com/watch?v=YEIuHwHhkA0",
+    "logoHue": 141,
+    "logoInitials": "DM",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Beginner",
+    "industry": "Students",
+    "features": [
+      "Roleplay conversations",
+      "Explain My Answer",
+      "Gamified lessons",
+      "Streak tracking"
+    ],
+    "pros": [
+      "Fun and motivating",
+      "Personalized explanations",
+      "Great mobile experience"
+    ],
+    "cons": [
+      "Max tier is pricier",
+      "AI features limited to certain languages"
+    ],
+    "tags": [
+      "education",
+      "language learning",
+      "chatbot"
+    ],
+    "alternatives": [
+      "ChatGPT"
+    ],
+    "badges": [],
+    "dateAdded": "2026-01-21",
+    "logo": "assets/logos/duolingo-max.svg"
+  },
+  {
+    "id": 38,
+    "name": "Khanmigo",
+    "developer": "Khan Academy",
+    "category": "Education",
+    "rating": 4.4,
+    "description": "AI tutor for students and teachers.",
+    "longDescription": "Khanmigo is an AI tutor integrated with Khan Academy's curriculum, guiding students through problems with Socratic questioning instead of giving direct answers.",
+    "website": "https://www.khanacademy.org/khan-labs",
+    "youtube": "https://www.youtube.com/watch?v=1sPuC6EL3zw",
+    "logoHue": 55,
+    "logoInitials": "KH",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Students",
+    "features": [
+      "Socratic tutoring",
+      "Curriculum-aligned",
+      "Teacher tools",
+      "Writing feedback"
+    ],
+    "pros": [
+      "Pedagogically sound approach",
+      "Free for many users",
+      "Aligned to real curriculum"
+    ],
+    "cons": [
+      "Can feel slow vs direct answers",
+      "Limited outside Khan Academy content"
+    ],
+    "tags": [
+      "education",
+      "tutoring",
+      "chatbot"
+    ],
+    "alternatives": [
+      "Duolingo Max"
+    ],
+    "badges": [],
+    "dateAdded": "2025-10-11",
+    "logo": "assets/logos/khanmigo.png"
+  },
+  {
+    "id": 39,
+    "name": "QuillBot",
+    "developer": "QuillBot",
+    "category": "Writing",
+    "rating": 4.3,
+    "description": "AI paraphrasing and writing tool.",
+    "longDescription": "QuillBot helps rewrite, summarize, and check grammar in text, popular among students and writers for quickly rephrasing content while preserving meaning.",
+    "website": "https://quillbot.com",
+    "youtube": "https://www.youtube.com/watch?v=Iy1zC0M-VTE",
+    "logoHue": 112,
+    "logoInitials": "QU",
+    "platforms": [
+      "Web",
+      "Browser Extension"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Students",
+    "features": [
+      "Paraphrasing modes",
+      "Summarizer",
+      "Grammar checker",
+      "Citation generator"
+    ],
+    "pros": [
+      "Fast rephrasing",
+      "Multiple tone modes",
+      "Useful citation tools"
+    ],
+    "cons": [
+      "Free tier has word limits",
+      "Can alter meaning if overused"
+    ],
+    "tags": [
+      "writing",
+      "paraphrasing",
+      "students"
+    ],
+    "alternatives": [
+      "Grammarly",
+      "DeepL"
+    ],
+    "badges": [],
+    "dateAdded": "2026-05-27",
+    "logo": "assets/logos/quillbot.png"
+  },
+  {
+    "id": 40,
+    "name": "Murf AI",
+    "developer": "Murf",
+    "category": "Audio",
+    "rating": 4.3,
+    "description": "AI voiceover generator for videos.",
+    "longDescription": "Murf generates studio-quality voiceovers from text in a wide range of voices and languages, aimed at video creators, e-learning, and marketing.",
+    "website": "https://murf.ai",
+    "youtube": "https://www.youtube.com/watch?v=U2b8G9174NM",
+    "logoHue": 230,
+    "logoInitials": "MA",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Content Creators",
+    "features": [
+      "120+ voices",
+      "Voice changer",
+      "Video sync",
+      "Team collaboration"
+    ],
+    "pros": [
+      "Wide voice selection",
+      "Easy to sync with video",
+      "Good for e-learning"
+    ],
+    "cons": [
+      "Some voices sound robotic",
+      "Pricier for commercial use"
+    ],
+    "tags": [
+      "audio",
+      "voiceover",
+      "video"
+    ],
+    "alternatives": [
+      "ElevenLabs",
+      "Descript"
+    ],
+    "badges": [],
+    "dateAdded": "2025-12-14",
+    "logo": "assets/logos/murf-ai.png"
+  },
+  {
+    "id": 41,
+    "name": "Krisp",
+    "developer": "Krisp",
+    "category": "Productivity",
+    "rating": 4.4,
+    "description": "AI noise cancellation for calls.",
+    "longDescription": "Krisp uses on-device AI to remove background noise and echo from calls in real time, working across any conferencing app.",
+    "website": "https://krisp.ai",
+    "youtube": "https://www.youtube.com/watch?v=8kK1D0z5G9Q",
+    "logoHue": 155,
+    "logoInitials": "KR",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Everyone",
+    "features": [
+      "Real-time noise cancellation",
+      "Echo removal",
+      "Meeting summaries",
+      "Works with any app"
+    ],
+    "pros": [
+      "Excellent noise removal",
+      "Works across apps",
+      "Low resource usage"
+    ],
+    "cons": [
+      "Free tier has daily limits",
+      "Summaries need paid plan"
+    ],
+    "tags": [
+      "productivity",
+      "audio",
+      "meetings"
+    ],
+    "alternatives": [
+      "Otter.ai"
+    ],
+    "badges": [
+      "new"
+    ],
+    "dateAdded": "2026-06-02",
+    "logo": "assets/logos/krisp.png"
+  },
+  {
+    "id": 42,
+    "name": "Figma AI",
+    "developer": "Figma",
+    "category": "Design",
+    "rating": 4.4,
+    "description": "AI design tools inside Figma.",
+    "longDescription": "Figma AI adds generative features like image generation, auto-layout suggestions, and content-aware renaming directly into the Figma design workflow.",
+    "website": "https://www.figma.com/ai",
+    "youtube": "https://www.youtube.com/watch?v=hZuLGDLialQ",
+    "logoHue": 188,
+    "logoInitials": "FA",
+    "platforms": [
+      "Web",
+      "Desktop"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Designers",
+    "features": [
+      "AI image generation",
+      "Auto layout suggestions",
+      "Content-aware rename",
+      "Visual search"
+    ],
+    "pros": [
+      "Native to existing design workflow",
+      "Speeds up repetitive tasks",
+      "Good team fit"
+    ],
+    "cons": [
+      "Some features need paid seats",
+      "Still expanding capabilities"
+    ],
+    "tags": [
+      "design",
+      "ui/ux",
+      "collaboration"
+    ],
+    "alternatives": [
+      "Canva AI",
+      "Adobe Firefly"
+    ],
+    "badges": [
+      "trending"
+    ],
+    "dateAdded": "2026-02-28",
+    "logo": "assets/logos/figma-ai.svg"
+  },
+  {
+    "id": 43,
+    "name": "Framer AI",
+    "developer": "Framer",
+    "category": "Design",
+    "rating": 4.3,
+    "description": "AI website builder and design tool.",
+    "longDescription": "Framer AI generates full responsive websites from a text prompt, combining a no-code visual editor with production-ready hosting.",
+    "website": "https://www.framer.com/ai",
+    "youtube": "https://www.youtube.com/watch?v=X9km4v1c1O0",
+    "logoHue": 53,
+    "logoInitials": "FA",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Small Business",
+    "features": [
+      "Text-to-website",
+      "No-code editor",
+      "CMS support",
+      "One-click publish"
+    ],
+    "pros": [
+      "Fast site generation",
+      "Professional templates",
+      "Good hosting included"
+    ],
+    "cons": [
+      "Less flexible than custom code",
+      "Advanced customization has a curve"
+    ],
+    "tags": [
+      "design",
+      "website builder",
+      "no-code"
+    ],
+    "alternatives": [
+      "Figma AI",
+      "Gamma"
+    ],
+    "badges": [
+      "new"
+    ],
+    "dateAdded": "2026-07-18",
+    "logo": "assets/logos/framer-ai.svg"
+  },
+  {
+    "id": 44,
+    "name": "Adept",
+    "developer": "Adept AI",
+    "category": "Business",
+    "rating": 4.0,
+    "description": "AI agent that operates software for you.",
+    "longDescription": "Adept builds AI agents designed to take actions inside real software interfaces, automating multi-step tasks across web apps on a user's behalf.",
+    "website": "https://www.adept.ai",
+    "youtube": "https://www.youtube.com/watch?v=nCaAG5xzGgQ",
+    "logoHue": 187,
+    "logoInitials": "AD",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Advanced",
+    "industry": "Enterprises",
+    "features": [
+      "Action-taking agents",
+      "Cross-app automation",
+      "Workflow recording",
+      "Enterprise controls"
+    ],
+    "pros": [
+      "Automates real UI tasks",
+      "Reduces repetitive work",
+      "Enterprise-ready controls"
+    ],
+    "cons": [
+      "Early-stage reliability",
+      "Requires setup per workflow"
+    ],
+    "tags": [
+      "business",
+      "automation",
+      "agent"
+    ],
+    "alternatives": [
+      "Zapier AI"
+    ],
+    "badges": [],
+    "dateAdded": "2025-09-05",
+    "logo": "assets/logos/adept.png"
+  },
+  {
+    "id": 45,
+    "name": "Ideogram",
+    "developer": "Ideogram AI",
+    "category": "Image Generation",
+    "rating": 4.4,
+    "description": "AI image generator with accurate text rendering.",
+    "longDescription": "Ideogram specializes in generating images with legible, accurate text, useful for logos, posters, and designs where readable typography matters.",
+    "website": "https://ideogram.ai",
+    "youtube": "https://www.youtube.com/watch?v=1XKY_LN5tGA",
+    "logoHue": 101,
+    "logoInitials": "ID",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Designers",
+    "features": [
+      "Accurate text rendering",
+      "Style presets",
+      "Magic Prompt",
+      "Upscaling"
+    ],
+    "pros": [
+      "Best text accuracy in class",
+      "Good for logos/posters",
+      "Active free tier"
+    ],
+    "cons": [
+      "Less painterly than Midjourney",
+      "Smaller community"
+    ],
+    "tags": [
+      "image generation",
+      "typography",
+      "design"
+    ],
+    "alternatives": [
+      "Midjourney",
+      "Leonardo AI"
+    ],
+    "badges": [],
+    "dateAdded": "2026-03-22",
+    "logo":"assets/logos/ideogram-ai-logo.png"
+  },
+  {
+    "id": 46,
+    "name": "Pika",
+    "developer": "Pika Labs",
+    "category": "Video Generation",
+    "rating": 4.2,
+    "description": "AI video generation from text and images.",
+    "longDescription": "Pika generates short AI videos from text prompts or existing images, with tools for camera control, lip sync, and stylistic effects.",
+    "website": "https://pika.art",
+    "youtube": "https://www.youtube.com/watch?v=2wS0mIYrgZQ",
+    "logoHue": 287,
+    "logoInitials": "PI",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Content Creators",
+    "features": [
+      "Text-to-video",
+      "Image-to-video",
+      "Camera controls",
+      "Lip sync"
+    ],
+    "pros": [
+      "Easy to use",
+      "Fun creative effects",
+      "Fast generation"
+    ],
+    "cons": [
+      "Short clip lengths",
+      "Free credits run out quickly"
+    ],
+    "tags": [
+      "video generation",
+      "creative",
+      "social media"
+    ],
+    "alternatives": [
+      "Runway",
+      "HeyGen"
+    ],
+    "badges": [],
+    "dateAdded": "2026-05-09",
+    "logo": "assets/logos/pika.png"
+  },
+  {
+    "id": 47,
+    "name": "Clay",
+    "developer": "Clay",
+    "category": "Business",
+    "rating": 4.2,
+    "description": "AI-powered data enrichment for sales.",
+    "longDescription": "Clay combines dozens of data providers with AI to research leads, enrich contact records, and personalize outbound sales messaging at scale.",
+    "website": "https://www.clay.com",
+    "youtube": "https://www.youtube.com/watch?v=UGb6q0y5Zqg",
+    "logoHue": 321,
+    "logoInitials": "CL",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Advanced",
+    "industry": "Enterprises",
+    "features": [
+      "Data enrichment",
+      "AI research agents",
+      "Personalized outreach",
+      "CRM sync"
+    ],
+    "pros": [
+      "Powerful lead research",
+      "Highly customizable",
+      "Great for GTM teams"
+    ],
+    "cons": [
+      "Steep learning curve",
+      "Credit-based pricing"
+    ],
+    "tags": [
+      "business",
+      "sales",
+      "data enrichment"
+    ],
+    "alternatives": [
+      "Salesforce Einstein",
+      "Zapier AI"
+    ],
+    "badges": [],
+    "dateAdded": "2025-11-17",
+    "logo": "assets/logos/clay.png"
+  },
+  {
+    "id": 48,
+    "name": "ChatPDF",
+    "developer": "ChatPDF",
+    "category": "Research",
+    "rating": 4.1,
+    "description": "Chat with the contents of any PDF.",
+    "longDescription": "ChatPDF lets users upload a PDF and ask questions about its content, returning answers grounded in the document with page references.",
+    "website": "https://www.chatpdf.com",
+    "youtube": "https://www.youtube.com/watch?v=k5cTHFXV3ig",
+    "logoHue": 193,
+    "logoInitials": "CH",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Students",
+    "features": [
+      "PDF Q&A",
+      "Page-level citations",
+      "Multi-document chat",
+      "Summarization"
+    ],
+    "pros": [
+      "Simple, focused tool",
+      "Good citation accuracy",
+      "Fast for long documents"
+    ],
+    "cons": [
+      "Free tier has file size limits",
+      "Struggles with scanned/image PDFs"
+    ],
+    "tags": [
+      "research",
+      "pdf",
+      "study tools"
+    ],
+    "alternatives": [
+      "Perplexity",
+      "Notion AI"
+    ],
+    "badges": [
+      "trending"
+    ],
+    "dateAdded": "2026-01-05",
+    "logo": "assets/logos/chatpdf.png"
+  },
+  {
+    "id": 49,
+    "name": "Consensus",
+    "developer": "Consensus",
+    "category": "Research",
+    "rating": 4.3,
+    "description": "AI search engine for scientific papers.",
+    "longDescription": "Consensus searches peer-reviewed research papers and extracts key findings, helping users get evidence-based answers instead of general web results.",
+    "website": "https://consensus.app",
+    "youtube": "https://www.youtube.com/watch?v=jS4vLip5FhI",
+    "logoHue": 289,
+    "logoInitials": "CO",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Researchers",
+    "features": [
+      "Paper search",
+      "Consensus meter",
+      "Study summaries",
+      "Citation export"
+    ],
+    "pros": [
+      "Grounded in real research",
+      "Great for academic work",
+      "Consensus meter is unique"
+    ],
+    "cons": [
+      "Free tier limited searches",
+      "Coverage gaps in some fields"
+    ],
+    "tags": [
+      "research",
+      "academic",
+      "science"
+    ],
+    "alternatives": [
+      "Perplexity",
+      "ChatPDF"
+    ],
+    "badges": [],
+    "dateAdded": "2026-04-03",
+    "logo": "assets/logos/consensus-app-logo.png"
+  },
+  {
+    "id": 50,
+    "name": "Beautiful.ai",
+    "developer": "Beautiful.ai",
+    "category": "Productivity",
+    "rating": 4.2,
+    "description": "AI-assisted presentation design.",
+    "longDescription": "Beautiful.ai automatically adjusts slide layouts as you add content, using design rules to keep presentations visually consistent without manual formatting.",
+    "website": "https://www.beautiful.ai",
+    "youtube": "https://www.youtube.com/watch?v=Cy1sJq1cnDc",
+    "logoHue": 256,
+    "logoInitials": "BA",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Beginner",
+    "industry": "Small Business",
+    "features": [
+      "Smart templates",
+      "Auto-adjusting layouts",
+      "Brand controls",
+      "Team library"
+    ],
+    "pros": [
+      "Consistently clean slides",
+      "Saves formatting time",
+      "Good brand controls"
+    ],
+    "cons": [
+      "No free tier",
+      "Less flexible than manual design tools"
+    ],
+    "tags": [
+      "productivity",
+      "presentations",
+      "design"
+    ],
+    "alternatives": [
+      "Gamma",
+      "Canva AI"
+    ],
+    "badges": [],
+    "dateAdded": "2025-10-23",
+    "logo": "assets/logos/firebase-beautifulslides-appspot-com-logo.png"
+  },
+  {
+    "id": 51,
+    "name": "D-ID",
+    "developer": "D-ID",
+    "category": "Video Generation",
+    "rating": 4.1,
+    "description": "AI talking-head video generation.",
+    "longDescription": "D-ID animates photos into talking-head videos synced to text or audio, used for presenters, customer service avatars, and personalized video messaging.",
+    "website": "https://www.d-id.com",
+    "youtube": "https://www.youtube.com/watch?v=Nj0T9k5ZDgY",
+    "logoHue": 52,
+    "logoInitials": "DI",
+    "platforms": [
+      "Web",
+      "API"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Developers",
+    "features": [
+      "Photo-to-video",
+      "Text/audio sync",
+      "API access",
+      "Custom avatars"
+    ],
+    "pros": [
+      "Works from a single photo",
+      "Good API for developers",
+      "Fast turnaround"
+    ],
+    "cons": [
+      "Lip sync can look artificial",
+      "Limited free credits"
+    ],
+    "tags": [
+      "video generation",
+      "avatars",
+      "api"
+    ],
+    "alternatives": [
+      "HeyGen",
+      "Synthesia"
+    ],
+    "badges": [],
+    "dateAdded": "2026-02-14",
+    "logo":"assets/logos/d-id-com-logo.png"
+  },
+  {
+    "id": 52,
+    "name": "Writesonic",
+    "developer": "Writesonic",
+    "category": "Marketing",
+    "rating": 4.1,
+    "description": "AI content and SEO writing platform.",
+    "longDescription": "Writesonic generates SEO-optimized articles, ad copy, and product descriptions, with built-in tools for keyword research and content scoring.",
+    "website": "https://writesonic.com",
+    "youtube": "https://www.youtube.com/watch?v=Zp7pW9SjqTY",
+    "logoHue": 53,
+    "logoInitials": "WR",
+    "platforms": [
+      "Web",
+      "Browser Extension"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Beginner",
+    "industry": "Marketers",
+    "features": [
+      "SEO article writer",
+      "Ad copy generator",
+      "Chatsonic assistant",
+      "Keyword research"
+    ],
+    "pros": [
+      "Good SEO tooling",
+      "Wide template library",
+      "Affordable plans"
+    ],
+    "cons": [
+      "Output needs fact-checking",
+      "Some templates feel dated"
+    ],
+    "tags": [
+      "marketing",
+      "seo",
+      "writing"
+    ],
+    "alternatives": [
+      "Jasper",
+      "Copy.ai"
+    ],
+    "badges": [
+      "new"
+    ],
+    "dateAdded": "2026-06-07",
+    "logo": "assets/logos/writesonic.png"
+  },
+  {
+    "id": 53,
+    "name": "Synthflow",
+    "developer": "Synthflow AI",
+    "category": "Business",
+    "rating": 4.0,
+    "description": "No-code AI voice agent builder.",
+    "longDescription": "Synthflow lets businesses build AI voice agents for phone calls, handling scheduling and customer inquiries without writing code.",
+    "website": "https://synthflow.ai",
+    "youtube": "https://www.youtube.com/watch?v=t9m0V71DhWM",
+    "logoHue": 345,
+    "logoInitials": "SY",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Paid",
+    "skillLevel": "Intermediate",
+    "industry": "Small Business",
+    "features": [
+      "No-code voice agents",
+      "Calendar integration",
+      "Call analytics",
+      "Multi-language"
+    ],
+    "pros": [
+      "No coding required",
+      "Good phone-call handling",
+      "Useful analytics"
+    ],
+    "cons": [
+      "Per-minute pricing adds up",
+      "Setup takes tuning to sound natural"
+    ],
+    "tags": [
+      "business",
+      "voice ai",
+      "automation"
+    ],
+    "alternatives": [
+      "Intercom Fin",
+      "ElevenLabs"
+    ],
+    "badges": [],
+    "dateAdded": "2025-08-30",
+    "logo": "assets/logos/synthflow.png"
+  },
+  {
+    "id": 54,
+    "name": "Galileo AI",
+    "developer": "Galileo",
+    "category": "Design",
+    "rating": 3.9,
+    "description": "AI UI design generator.",
+    "longDescription": "Galileo AI generates editable user-interface designs from text descriptions, giving designers a fast starting point for app and web screens.",
+    "website": "https://www.usegalileo.ai",
+    "youtube": "https://www.youtube.com/watch?v=Zg2p89pBpUE",
+    "logoHue": 322,
+    "logoInitials": "GA",
+    "platforms": [
+      "Web"
+    ],
+    "pricing": "Freemium",
+    "skillLevel": "Intermediate",
+    "industry": "Designers",
+    "features": [
+      "Text-to-UI",
+      "Editable layers",
+      "Design system export",
+      "Component library"
+    ],
+    "pros": [
+      "Fast first drafts",
+      "Editable output",
+      "Good for early ideation"
+    ],
+    "cons": [
+      "Designs need refinement",
+      "Limited free generations"
+    ],
+    "tags": [
+      "design",
+      "ui/ux",
+      "prototyping"
+    ],
+    "alternatives": [
+      "Figma AI",
+      "Framer AI"
+    ],
+    "badges": [
+      "trending"
+    ],
+    "dateAdded": "2026-03-19",
+    "logo": "assets/logos/galileo-ai-logo.png"
+  }
+]
