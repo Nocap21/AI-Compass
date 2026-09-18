@@ -1,13 +1,6 @@
-/* =========================================================
-   recommend.js
-   "Find the right AI tool for me" — a 4-question wizard that
-   scores every tool in data/tools.json against the user's
-   answers and shows the top 5 matches with a match percentage.
-
-   This is intentionally rule-based (weighted scoring), not
-   machine learning — see the roadmap note that Phase 1 of the
-   recommender should be plain JavaScript.
-   ========================================================= */
+// Find the right AI tool for me" — a 4-question wizard that
+// scores every tool in data/tools.json against the user's
+// answers and shows the top 5 matches with a match percentage.
 
 (function () {
   const root = document.getElementById("recommend-root");

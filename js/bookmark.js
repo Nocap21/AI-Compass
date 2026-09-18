@@ -1,9 +1,6 @@
-/* =========================================================
-   bookmark.js
-   Handles saving/removing "bookmarked" tools using Local Storage,
-   and listens (via event delegation) for clicks on any
-   [data-action="bookmark"] button anywhere in the document.
-   ========================================================= */
+//  Handles saving/removing "bookmarked" tools using Local Storage,
+//    and  for clicks on any button anywhere in the document.
+
 
 window.AICompass = window.AICompass || {};
 

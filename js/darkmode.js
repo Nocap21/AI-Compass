@@ -1,9 +1,4 @@
-/* =========================================================
-   darkmode.js
-   Applies the saved theme as early as possible, and wires up
-   every button with [data-action="theme-toggle"] (there can be
-   more than one — desktop nav + mobile drawer).
-   ========================================================= */
+// Applies the saved theme as early as possible
 
 window.AICompass = window.AICompass || {};
 

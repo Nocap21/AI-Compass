@@ -1,12 +1,8 @@
-/* =========================================================
-   app.js
-   Two jobs:
-   1) Sitewide UI wiring that every page needs: mobile nav
-      drawer, scroll-to-top button, active nav link highlight,
-      newsletter form.
-   2) Home page only: trending / featured / categories /
-      popular searches / recently added rails.
-   ========================================================= */
+  // 1) Sitewide UI wiring that every page needs: mobile nav
+  //     drawer, scroll-to-top button, active nav link highlight,
+  //     newsletter form.
+  //  2) Home page only: trending / featured / categories /
+  //     popular searches / recently added rails
 
 document.addEventListener("DOMContentLoaded", function () {
   wireMobileDrawer();

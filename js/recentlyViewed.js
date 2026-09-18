@@ -1,10 +1,7 @@
-/* =========================================================
-   recentlyViewed.js
-   Every time a Details page loads, the tool's id gets pushed to
-   the front of a small "recently viewed" list in Local Storage.
-   The Home page reads this list to render its "Recently Added"*
-   -style rail of tools the user has actually looked at.
-   ========================================================= */
+// Every time a Details page loads, the tool's id gets pushed to
+// the front of a small "recently viewed" list in Local Storage.
+// The Home page reads this list to render its "Recently Added"*
+// -style rail of tools the user has actually looked at.
 
 window.AICompass = window.AICompass || {};
 

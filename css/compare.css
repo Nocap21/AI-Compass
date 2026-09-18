@@ -1,6 +1,4 @@
-/* =========================================================
-   COMPARE.CSS — two-tool comparison table
-   ========================================================= */
+ /* COMPARE.CSS — two-tool comparison table */
 
 .compare-select-row{ display:grid; grid-template-columns:1fr auto 1fr; gap:20px; align-items:center; margin:32px 0 12px; }
 .compare-select-row .vs{ font-family:var(--font-mono); font-size:13px; color:var(--signal); text-align:center; }

@@ -1,14 +1,11 @@
-/* =========================================================
-   data.js
-   Loads data/tools.json once and exposes small helper
-   functions that every other page/module reuses:
-     - AICompass.getTools()      -> Promise<Array of tool objects>
-     - AICompass.getCategories() -> Promise<Array of {name, count, bearing}>
-     - AICompass.renderToolCard(tool) -> HTML string for one card
-     - AICompass.pricingBadgeClass(pricing)
-   Keeping this in one file means every page renders cards
-   the exact same way.
-   ========================================================= */
+//  Loads data/tools.json once and exposes small helper
+//    functions that every other page/module reuses:
+//      - AICompass.getTools()      -> Promise<Array of tool objects>
+//      - AICompass.getCategories() -> Promise<Array of {name, count, bearing}>
+//      - AICompass.renderToolCard(tool) -> HTML string for one card
+//      - AICompass.pricingBadgeClass(pricing)
+//    Keeping this in one file means every page renders cards
+//    the exact same way
 
 window.AICompass = window.AICompass || {};
 
@@ -17,9 +14,8 @@ window.AICompass = window.AICompass || {};
   let categoriesCache = null;
 
   // Fetch tools.json (only once, then reuse the cached array).
-  // Any failure (network error, bad JSON, non-array payload) resolves
   // to an empty array instead of throwing, so pages can render an
-  // empty state rather than crash.
+
   function getTools() {
     if (toolsCache) return Promise.resolve(toolsCache);
     return fetch("data/tools.json")
@@ -81,9 +77,7 @@ window.AICompass = window.AICompass || {};
   // is set, otherwise the colored-initials badge (unchanged fallback).
   // If the image fails to load at runtime, it swaps back to the initials
   // badge automatically instead of showing a broken-image icon.
-  // boxSize/radius/fontSize let callers match their existing CSS classes
-  // (tool-card's 48px box vs the details page's 76px box) via inline
-  // styles, so no CSS files need to change.
+
 function renderLogo(tool, className, boxSize, radius, fontSize) {
     const fallback = `<div class="${className}" style="width:${boxSize}px;height:${boxSize}px;border-radius:${radius}px;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;font-size:${fontSize}px;color:#fff;flex-shrink:0;background:hsl(${tool.logoHue} 65% 45%)">${tool.logoInitials}</div>`;
     if (!tool.logo) return fallback;

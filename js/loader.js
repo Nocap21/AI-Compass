@@ -1,10 +1,7 @@
-/* =========================================================
-   loader.js
-   Fades out the full-page "page-loader" overlay once the DOM is
-   ready (gives every page a consistent, on-brand loading moment
-   instead of a blank flash). Also exposes a tiny toast() helper
-   used by bookmark.js / compare.js / contact.js.
-   ========================================================= */
+//  Fades out the full-page "page-loader" overlay once the DOM is
+//    ready (gives every page a consistent, on-brand loading moment
+//    instead of a blank flash). Also exposes a tiny toast() helper
+//    used by bookmark.js / compare.js / contact.js.
 
 window.AICompass = window.AICompass || {};
 

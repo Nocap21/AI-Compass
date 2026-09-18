@@ -1,9 +1,6 @@
-/* =========================================================
-   filter.js
-   Drives the All Tools page: builds the filter checkboxes from
-   the dataset, applies search + filters + sort, and re-renders
-   the grid. Only runs if #tools-grid exists on the page.
-   ========================================================= */
+  // Drives the All Tools page: builds the filter checkboxes from
+  //  the dataset, applies search + filters + sort, and re-renders
+  //  the grid. Only runs if #tools-grid exists on the page.
 
 (function () {
   const grid = document.getElementById("tools-grid");
@@ -54,7 +51,7 @@
     const panel = document.getElementById("filters-panel");
     // Category and Pricing start open (most-used); the longer lists
     // start collapsed so the panel doesn't tower over the page.
-    const openByDefault = new Set(["category", "pricing"]);
+    const openByDefault = new Set(["", ""]);
     panel.innerHTML =
       filterGroups
         .map((group) => {

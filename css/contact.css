@@ -1,6 +1,4 @@
-/* =========================================================
-   CONTACT.CSS — Contact page form
-   ========================================================= */
+ /* CONTACT.CSS — Contact page form */
 
 .contact-wrap{ display:grid; grid-template-columns:1fr 1fr; gap:48px; padding:48px 0 64px; align-items:start; }
 .contact-form{ background:var(--card-bg); border:1px solid var(--line); border-radius:var(--radius-l); padding:32px; }

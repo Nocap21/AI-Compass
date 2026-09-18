@@ -1,10 +1,7 @@
-/* =========================================================
-   details.js
-   Reads ?id= from the URL, finds that tool in tools.json, and
-   fills in every part of the Details page template. Also records
-   the visit in Recently Viewed and wires the Share / Copy Link
-   buttons.
-   ========================================================= */
+// Reads ?id= from the URL, finds that tool in tools.json, and
+// fills in every part of the Details page template. Also records
+// the visit in Recently Viewed and wires the Share / Copy Link  buttons
+
 
 (function () {
   const root = document.getElementById("details-root");
@@ -83,14 +80,7 @@
               <div class="col cons"><h3>Cons</h3><ul>${tool.cons.map((c) => `<li>${c}</li>`).join("")}</ul></div>
             </div>
           </div>
-
-          <div class="details-section">
-            <h2>Video Tutorial</h2>
-            <div class="video-embed">
-              <iframe src="https://www.youtube-nocookie.com/embed?listType=search&list=${encodeURIComponent(tool.name + " tutorial")}" title="${tool.name} tutorial" allowfullscreen loading="lazy"></iframe>
-            </div>
-          </div>
-
+           
           <div class="details-section">
             <h2>Tags</h2>
             <div class="tool-tags">${tool.tags.map((t) => `<span>#${t}</span>`).join("")}</div>

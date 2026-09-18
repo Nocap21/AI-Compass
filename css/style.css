@@ -1,9 +1,7 @@
-/* =========================================================
-   AI COMPASS — GLOBAL STYLESHEET
+ /* AI COMPASS — GLOBAL STYLESHEET
    Design language: a navigator's compass. Categories are given
    "bearings" (degrees on a 360° rose), ratings read like a gauge,
-   and the accent colour is the orange of a compass needle.
-   ========================================================= */
+   and the accent colour is the orange of a compass needle. */
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 

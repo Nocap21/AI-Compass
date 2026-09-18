@@ -1,7 +1,5 @@
-/* =========================================================
-   RESPONSIVE.CSS — breakpoints for mobile / tablet / laptop
-   Mobile-first overrides applied top-down as viewport shrinks.
-   ========================================================= */
+ /* RESPONSIVE.CSS — breakpoints for mobile / tablet / laptop
+   Mobile-first overrides applied top-down as viewport shrinks. */
 
 /* Laptop */
 @media (max-width:1080px){

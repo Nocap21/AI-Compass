@@ -1,10 +1,4 @@
-/* =========================================================
-   contact.js
-   Simple client-side validation for the Contact form: checks
-   that every field is filled in and the email looks valid,
-   shows inline errors, and fires a success toast + banner when
-   the form is "sent" (no backend — this is a front-end demo).
-   ========================================================= */
+// Simple client-side validation for the Contact form
 
 (function () {
   const form = document.getElementById("contact-form");

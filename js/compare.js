@@ -1,11 +1,8 @@
-/* =========================================================
-   compare.js
-   Two responsibilities:
-   1) A tiny shared "selection" store so a Compare button on any
-      card can queue a tool for comparison (max 2 at a time).
-   2) The actual Compare page logic: two dropdowns + a table that
-      lines up every spec side by side.
-   ========================================================= */
+// Two responsibilities:
+//    1) A tiny shared "selection" store so a Compare button on any
+//       card can queue a tool for comparison (max 2 at a time).
+//    2) The actual Compare page logic: two dropdowns + a table that
+//       lines up every spec side by side.
 
 window.AICompass = window.AICompass || {};
 

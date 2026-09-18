@@ -1,13 +1,10 @@
-/* =========================================================
-   search.js
-   Live search + auto-suggestions. Matches on name, category,
-   developer, tags, description, features, and industry. Works
-   on any input marked with the [data-search-input] attribute,
-   and shows a dropdown panel in the nearest [data-search-panel]
-   element.
-   Pressing Enter (or clicking "See all results") sends the
-   query to tools.html?q=... where filter.js takes over.
-   ========================================================= */
+  // Live search + auto-suggestions. Matches on name, category,
+  //  developer, tags, description, features, and industry. Works
+  //  on any input marked with the [data-search-input] attribute,
+  //  and shows a dropdown panel in the nearest [data-search-panel]
+  //  element.
+  //  Pressing Enter (or clicking "See all results") sends the
+  //  query to tools.html?q=... where filter.js takes over.
 
 (function () {
   function matchesQuery(tool, q) {

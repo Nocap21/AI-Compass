@@ -1,6 +1,4 @@
-/* =========================================================
-   TOOLS.CSS — All Tools page: filter sidebar + sorting bar
-   ========================================================= */
+ /* TOOLS.CSS — All Tools page: filter sidebar + sorting bar */
 
 .tools-page-head{ padding:40px 0 20px; }
 .tools-layout{ display:grid; grid-template-columns:260px 1fr; gap:32px; align-items:start; }
@@ -59,9 +57,6 @@
 }
 .mobile-filter-toggle{ display:none; }
 
-/* Must never take up a track in the desktop .tools-layout grid — without
-   this base rule it silently becomes the grid's second column and pushes
-   #tools-grid down into a squeezed second row. */
 .filters-overlay{ display:none; }
 
 @media (max-width:860px){

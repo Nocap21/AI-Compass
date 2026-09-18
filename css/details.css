@@ -1,6 +1,4 @@
-/* =========================================================
-   DETAILS.CSS — single tool detail page
-   ========================================================= */
+ /* DETAILS.CSS — single tool detail page */
 
 .details-hero{ padding:44px 0 32px; border-bottom:1px solid var(--line); }
 .details-hero-top{ display:flex; gap:20px; align-items:flex-start; flex-wrap:wrap; }
@@ -23,9 +21,6 @@
 .pros-cons .pros li::before{ content:"✓"; color:var(--true-north); margin-right:8px; font-weight:700; }
 .pros-cons .cons li::before{ content:"✕"; color:var(--signal); margin-right:8px; font-weight:700; }
 .pros-cons li{ font-size:14px; list-style:none; }
-
-.video-embed{ position:relative; padding-top:56.25%; border-radius:var(--radius-m); overflow:hidden; border:1px solid var(--line); }
-.video-embed iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
 
 .side-card{
   background:var(--card-bg); border:1px solid var(--line); border-radius:var(--radius-m); padding:20px; margin-bottom:20px;
